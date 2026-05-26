@@ -108,8 +108,31 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Video Showcase Section */}
+      <section className="py-24 bg-gradient-to-b from-slate-900 to-slate-800">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">See Our Solutions in Action</h2>
+            <p className="text-slate-300 max-w-2xl mx-auto">Watch our expert team deliver world-class automation and engineering excellence.</p>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-2xl shadow-slate-950">
+            <video
+              controls
+              className="w-full h-auto bg-black"
+              poster="https://cdn.builder.io/api/v1/image/assets%2F8c409737d47b4c5ebd702c7c2a206fa9%2Ffbc0f89b916b446bad4b6d2e9e1aa85c?format=webp&width=800&height=1200"
+            >
+              <source
+                src="https://cdn.builder.io/o/assets%2F6081257f56164f79a999356618a191cf%2F26609043e39e478fa59fc3f207db1e98?alt=media&token=940c22d5-b6e3-4207-a524-a4d0c0c759eb&apiKey=6081257f56164f79a999356618a191cf"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Section */}
-      <section className="py-12 bg-white relative z-20 -mt-20 mx-4 md:mx-auto max-w-6xl rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
+      <section className="py-12 bg-white relative z-20 -mt-0 mx-4 md:mx-auto max-w-6xl rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-8">
           {[
             { label: "Projects Completed", value: "150+" },
