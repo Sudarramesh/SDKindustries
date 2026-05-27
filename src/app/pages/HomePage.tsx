@@ -86,6 +86,8 @@ export function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Engineering <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Smart Solutions</span> for Industrial Excellence
             </h1>
+            <p className="text-lg text-blue-200 mb-4 font-semibold">A Collaborative Partnership</p>
+            <p className="text-sm text-slate-300 mb-2">SDK Automations & Shree Vikasha Automations</p>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl">
               World-class automation systems, chemical processing lines, and turnkey engineering support for global manufacturing.
             </p>

@@ -39,13 +39,17 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center space-x-4 group">
+          <Link to="/" className="flex items-center space-x-3 group">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F1315f976bc474ae5a1c0f81df25b25e5%2F89d67864eabb460b949aa9851fad73eb?format=webp&width=800&height=1200"
               alt="SDK Automations"
-              className="h-20 w-auto group-hover:scale-110 transition-transform"
+              className="h-14 w-auto group-hover:scale-110 transition-transform"
               style={{ mixBlendMode: "multiply" }}
             />
+            <div className="hidden sm:flex flex-col">
+              <div className="text-xs text-slate-500 font-medium">In collaboration with</div>
+              <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shree Vikasha</div>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
