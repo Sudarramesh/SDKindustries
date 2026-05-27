@@ -48,7 +48,7 @@ export function Navbar() {
             />
             <div className="hidden sm:flex flex-col">
               <div className="text-xs text-slate-500 font-medium">In collaboration with</div>
-              <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shree Vikasha</div>
+              <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shree Vikasha Automations</div>
             </div>
           </Link>
 
