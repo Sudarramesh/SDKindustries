@@ -26,8 +26,9 @@ export function AboutPage() {
             <span className="px-4 py-2 bg-blue-100 dark:bg-blue-950/50 text-blue-700 dark:text-blue-300 rounded-full text-sm font-semibold">Our Story</span>
           </motion.div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-700 via-purple-800 to-pink-700 bg-clip-text text-transparent border border-slate-200/10">
-            About SDK Automations
+            About SDK Automations & Shree Vikasha
           </h1>
+          <p className="text-lg text-blue-600 dark:text-blue-400 font-semibold mb-3">A Collaborative Partnership</p>
           <p className="text-xl text-slate-600 dark:text-slate-400">
             A specialized engineering and automation solutions company focused on delivering world-class turnkey projects with precision and innovation.
           </p>
@@ -68,7 +69,7 @@ export function AboutPage() {
               <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
             </div>
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              At SDK Automations, we believe in engineering excellence through precision, innovation, and unwavering commitment to quality. We specialize in automation systems, chemical processing line establishments, NDT FPI booth setups, bath process integrations, industrial installations, and complete turnkey engineering support.
+              At SDK Automations and Shree Vikasha Automations, we believe in engineering excellence through precision, innovation, and unwavering commitment to quality. Our collaborative partnership specializes in automation systems, chemical processing line establishments, NDT FPI booth setups, bath process integrations, industrial installations, and complete turnkey engineering support.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-4">
               {[

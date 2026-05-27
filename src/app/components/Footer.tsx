@@ -14,6 +14,8 @@ export function Footer() {
                 className="h-10 w-auto"
               />
             </Link>
+            <div className="text-xs text-slate-500 font-medium mb-2">In collaboration with</div>
+            <p className="text-sm font-semibold text-slate-300 mb-3">Shree Vikasha Automations</p>
             <p className="text-sm text-slate-400">
               Engineering Smart Solutions for Industrial Excellence. Specialized in automation systems, chemical processing, and turnkey engineering.
             </p>
@@ -51,7 +53,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <span className="text-slate-400">+91 98765 43210</span>
+                <span className="text-slate-400">+91 89733 09090</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
@@ -63,7 +65,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} SDK Automations. All rights reserved.
+            &copy; {new Date().getFullYear()} SDK Automations & Shree Vikasha Automations. All rights reserved.
           </p>
           <div className="text-sm text-slate-500 mt-2 md:mt-0">
             Consulting support from Elroiz Neway Solutions

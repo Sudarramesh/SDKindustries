@@ -64,7 +64,7 @@ export function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 mb-1">Phone</h4>
-                    <p className="text-sm text-slate-600">+91 98765 43210</p>
+                    <p className="text-sm text-slate-600">+91 89733 09090</p>
                     <p className="text-sm text-slate-600">+91 80 2345 6789</p>
                   </div>
                 </div>

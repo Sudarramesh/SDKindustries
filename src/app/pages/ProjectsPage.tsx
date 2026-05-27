@@ -29,6 +29,7 @@ export function ProjectsPage() {
           className="text-center max-w-3xl mx-auto mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Featured Projects</h1>
+          <p className="text-sm text-blue-600 font-semibold mb-3">SDK Automations & Shree Vikasha Automations</p>
           <p className="text-lg text-slate-600">
             A showcase of our world-class industrial installations, automation setups, and turnkey engineering solutions.
           </p>
