@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
-import { Menu, X, Moon, Sun } from "lucide-react";
+import { Menu, X, Moon, Sun, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { useTheme } from "../contexts/ThemeContext";
 
@@ -46,9 +46,17 @@ export function Navbar() {
               className="h-14 w-auto group-hover:scale-110 transition-transform"
               style={{ mixBlendMode: "multiply" }}
             />
-            <div className="hidden sm:flex flex-col">
-              <div className="text-xs text-slate-500 font-medium">In collaboration with</div>
-              <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shree Vikasha Automations</div>
+            <div className="hidden sm:flex items-center">
+              <div className="h-12 w-px bg-gradient-to-b from-transparent via-blue-300 to-transparent mx-3"></div>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1">
+                  <Zap className="w-3 h-3 text-blue-600" />
+                  <span className="text-xs text-slate-500 font-medium">Collaborated with</span>
+                </div>
+                <div className="text-sm font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  SHREE VIKASHA Automations
+                </div>
+              </div>
             </div>
           </Link>
 
