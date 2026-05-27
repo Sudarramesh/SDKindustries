@@ -30,27 +30,26 @@ export function Navbar() {
   }, []);
 
   return (
-    <>
-      {/* Collaboration Banner */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-2 text-center text-sm font-medium">
-        In collaboration with <span className="font-bold">Shree Vikasha Automations</span>
-      </div>
-      <header
-        className={`fixed top-10 left-0 w-full z-50 transition-all duration-300 border-b border-transparent ${
-          scrolled
-            ? "bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm border-slate-200 dark:border-slate-800"
-            : "bg-white/50 dark:bg-slate-950/50 backdrop-blur-sm"
-        }`}
-      >
+    <header
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-transparent ${
+        scrolled
+          ? "bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm border-slate-200 dark:border-slate-800"
+          : "bg-white/50 dark:bg-slate-950/50 backdrop-blur-sm"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center space-x-4 group">
+          <Link to="/" className="flex items-center space-x-3 group">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F1315f976bc474ae5a1c0f81df25b25e5%2F89d67864eabb460b949aa9851fad73eb?format=webp&width=800&height=1200"
               alt="SDK Automations"
-              className="h-20 w-auto group-hover:scale-110 transition-transform"
+              className="h-14 w-auto group-hover:scale-110 transition-transform"
               style={{ mixBlendMode: "multiply" }}
             />
+            <div className="hidden sm:flex flex-col">
+              <div className="text-xs text-slate-500 font-medium">In collaboration with</div>
+              <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">Shree Vikasha Automations</div>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
@@ -136,6 +135,5 @@ export function Navbar() {
         )}
       </AnimatePresence>
     </header>
-    </>
   );
 }

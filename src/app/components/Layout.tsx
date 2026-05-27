@@ -8,7 +8,7 @@ export function Layout() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-40">
+      <main className="flex-grow pt-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
