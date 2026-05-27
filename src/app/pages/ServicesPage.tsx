@@ -172,6 +172,7 @@ export function ServicesPage() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Our Services</h1>
+          <p className="text-sm text-blue-600 font-semibold mb-3">SDK Automations & Shree Vikasha Automations</p>
           <p className="text-lg text-slate-600">
             Comprehensive engineering solutions tailored for industrial excellence. From automation to complete chemical processing lines.
           </p>
@@ -191,9 +192,9 @@ export function ServicesPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Why Choose SDK Automations</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Why Choose Our Partnership</h2>
             <p className="text-lg text-slate-600">
-              Industry-leading expertise backed by years of proven results and customer success stories.
+              Industry-leading expertise from SDK Automations and Shree Vikasha Automations, backed by years of proven results and customer success stories.
             </p>
           </motion.div>
 
