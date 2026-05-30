@@ -165,7 +165,7 @@ export function ContactPage() {
                           required
                           type="text"
                           className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all outline-none bg-slate-50 focus:bg-white"
-                          placeholder="John Doe"
+                          placeholder="enter your name"
                         />
                       </div>
                       <div>
@@ -173,7 +173,7 @@ export function ContactPage() {
                         <input
                           type="text"
                           className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all outline-none bg-slate-50 focus:bg-white"
-                          placeholder="Acme Manufacturing"
+                          placeholder="enter company name"
                         />
                       </div>
                       <div>
